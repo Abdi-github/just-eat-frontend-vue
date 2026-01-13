@@ -1,0 +1,22 @@
+{
+  "title": "My Profile",
+  "info_section": "Profile Information",
+  "security_section": "Security",
+  "first_name": "First name",
+  "last_name": "Last name",
+  "email": "Email address",
+  "phone": "Phone number",
+  "avatar": "Profile photo",
+  "save": "Save Changes",
+  "saving": "Saving...",
+  "saved": "Profile updated successfully",
+  "password": {
+    "title": "Change Password",
+    "current": "Current password",
+    "new": "New password",
+    "confirm": "Confirm new password",
+    "submit": "Update Password",
+    "submitting": "Updating...",
+    "success": "Password updated successfully"
+  }
+}

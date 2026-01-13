@@ -1,0 +1,22 @@
+{
+  "title": "My Addresses",
+  "add": "Add New Address",
+  "edit": "Edit Address",
+  "delete": "Delete Address",
+  "delete_confirm": "Are you sure you want to delete this address?",
+  "set_default": "Set as Default",
+  "default_badge": "Default",
+  "no_addresses": "No saved addresses",
+  "no_addresses_hint": "Add an address for faster checkout",
+  "form": {
+    "label": "Address label",
+    "label_placeholder": "E.g. Home, Work",
+    "street": "Street address",
+    "city": "City",
+    "canton": "Canton",
+    "postal_code": "Postal code",
+    "country": "Country",
+    "save": "Save Address",
+    "saving": "Saving..."
+  }
+}

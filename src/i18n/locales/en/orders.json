@@ -1,0 +1,60 @@
+{
+  "title": "My Orders",
+  "no_orders": "No orders yet",
+  "no_orders_hint": "Your orders will appear here once you place one",
+  "tabs": {
+    "all": "All",
+    "active": "Active",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "status": {
+    "PLACED": "Order Placed",
+    "ACCEPTED": "Accepted",
+    "REJECTED": "Rejected",
+    "PREPARING": "Preparing",
+    "READY": "Ready for Pickup",
+    "PICKED_UP": "Picked Up",
+    "IN_TRANSIT": "On the Way",
+    "DELIVERED": "Delivered",
+    "CANCELLED": "Cancelled"
+  },
+  "card": {
+    "order_number": "Order #{id}",
+    "placed_at": "Placed {time}",
+    "items_count": "{count} item | {count} items",
+    "view_details": "View Details",
+    "track_order": "Track Order",
+    "reorder": "Reorder"
+  },
+  "detail": {
+    "title": "Order Details",
+    "order_number": "Order #{id}",
+    "placed_at": "Placed on {date}",
+    "delivery_address": "Delivery Address",
+    "payment_method": "Payment Method",
+    "items": "Items",
+    "subtotal": "Subtotal",
+    "delivery_fee": "Delivery fee",
+    "discount": "Discount",
+    "total": "Total",
+    "cancel_order": "Cancel Order",
+    "cancel_confirm": "Are you sure you want to cancel this order?",
+    "cancel_success": "Order cancelled successfully",
+    "timeline_title": "Order Progress"
+  },
+  "tracking": {
+    "title": "Track Your Order",
+    "courier": "Courier",
+    "estimated_arrival": "Estimated arrival",
+    "live_tracking": "Live Tracking",
+    "no_active_delivery": "No active delivery to track"
+  },
+  "confirmation": {
+    "title": "Order Confirmed!",
+    "subtitle": "Your order has been placed successfully",
+    "order_number": "Order Number",
+    "track": "Track Order",
+    "back_to_restaurants": "Back to Restaurants"
+  }
+}

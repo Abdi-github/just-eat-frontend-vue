@@ -1,0 +1,50 @@
+{
+  "title": "Checkout",
+  "steps": {
+    "address": "Delivery Address",
+    "review": "Review Order",
+    "payment": "Payment"
+  },
+  "address": {
+    "title": "Select Delivery Address",
+    "add_new": "Add New Address",
+    "select": "Deliver here",
+    "selected": "Selected",
+    "no_addresses": "No saved addresses",
+    "add_hint": "Add an address to continue"
+  },
+  "review": {
+    "title": "Review your order",
+    "from": "From {restaurant}",
+    "subtotal": "Subtotal",
+    "delivery_fee": "Delivery fee",
+    "discount": "Discount",
+    "total": "Total",
+    "coupon": {
+      "label": "Promo code",
+      "placeholder": "Enter promo code",
+      "apply": "Apply",
+      "applied": "Promo code applied",
+      "invalid": "Invalid or expired promo code",
+      "remove": "Remove"
+    }
+  },
+  "payment": {
+    "title": "Payment Method",
+    "stripe_card": "Credit / Debit Card",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Cash on Delivery",
+    "place_order": "Place Order",
+    "placing": "Placing order...",
+    "secure": "Your payment is secure"
+  },
+  "simulation": {
+    "title": "Complete Payment",
+    "twint_title": "Pay with TWINT",
+    "postfinance_title": "Pay with PostFinance",
+    "confirm": "Confirm Payment",
+    "cancel": "Cancel",
+    "processing": "Processing payment..."
+  }
+}

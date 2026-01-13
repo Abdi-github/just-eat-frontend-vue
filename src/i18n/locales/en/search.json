@@ -1,0 +1,12 @@
+{
+  "placeholder": "Search restaurants, cuisines...",
+  "results_for": "Results for \"{query}\"",
+  "no_results": "No results for \"{query}\"",
+  "no_results_hint": "Try searching for a different cuisine or restaurant name",
+  "suggestions": "Suggestions",
+  "recent_searches": "Recent searches",
+  "clear_recent": "Clear recent searches",
+  "restaurants": "Restaurants",
+  "cuisines": "Cuisines",
+  "searching": "Searching..."
+}

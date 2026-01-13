@@ -1,0 +1,31 @@
+{
+  "title": "Your Cart",
+  "checkout": "Proceed to Checkout",
+  "empty": {
+    "title": "Your cart is empty",
+    "subtitle": "Add items from a restaurant to get started",
+    "cta": "Browse Restaurants"
+  },
+  "empty_hint": "Add items from a restaurant to get started",
+  "browse_restaurants": "Browse Restaurants",
+  "item_count": "{count} item | {count} items",
+  "subtotal": "Subtotal",
+  "delivery_fee": "Delivery fee",
+  "total": "Total",
+  "calculated_at_checkout": "Calculated at checkout",
+  "proceed_to_checkout": "Proceed to Checkout",
+  "continue_shopping": "Continue Shopping",
+  "clear_cart": "Clear Cart",
+  "clear_confirm": "Are you sure you want to clear your cart?",
+  "restaurant_conflict": {
+    "title": "Start a new order?",
+    "message": "Your cart contains items from {restaurant}. Adding this item will clear your current cart.",
+    "confirm": "Start New Order",
+    "cancel": "Keep Current Cart"
+  },
+  "item": {
+    "remove": "Remove",
+    "special_instructions": "Special instructions",
+    "instructions_placeholder": "E.g. no onions, extra sauce..."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "active_delivery": "Active Delivery",
+    "history": "Delivery History"
+  },
+  "dashboard": {
+    "title": "Courier Dashboard",
+    "today_deliveries": "Today's Deliveries",
+    "today_earnings": "Today's Earnings",
+    "avg_rating": "Average Rating",
+    "available_orders": "Available Orders",
+    "no_available": "No available orders right now",
+    "refresh": "Refresh",
+    "accept": "Accept Delivery",
+    "accepting": "Accepting..."
+  },
+  "active": {
+    "title": "Active Delivery",
+    "pickup_from": "Pick up from",
+    "deliver_to": "Deliver to",
+    "mark_picked_up": "Mark as Picked Up",
+    "mark_delivered": "Mark as Delivered",
+    "no_active": "No active delivery"
+  },
+  "history": {
+    "title": "Delivery History",
+    "no_history": "No deliveries yet",
+    "earnings": "Earnings",
+    "duration": "Duration"
+  }
+}

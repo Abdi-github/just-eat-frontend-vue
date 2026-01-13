@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "title": "Hungry? We've got you covered.",
+    "titleHighlight": "covered.",
+    "subtitle": "Order from the best restaurants in Switzerland",
+    "searchPlaceholder": "Enter your city or address...",
+    "search_placeholder": "Enter your city or address...",
+    "searchCta": "Find Restaurants",
+    "cta_find": "Find Restaurants",
+    "cta_order": "Order Now",
+    "delivery": "Delivery",
+    "pickup": "Pickup"
+  },
+  "featuredRestaurants": {
+    "title": "Top Restaurants",
+    "viewAll": "View all"
+  },
+  "topRestaurants": {
+    "subtitle": "Highest rated restaurants near you"
+  },
+  "cuisines": {
+    "title": "Popular Cuisines",
+    "subtitle": "Browse by cuisine type",
+    "viewAll": "View all",
+    "viewLess": "View less"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Order your favourite food in 3 simple steps",
+    "step1Title": "Find a restaurant",
+    "step1Description": "Browse hundreds of restaurants in your area and filter by cuisine, rating or delivery time",
+    "step2Title": "Choose your meals",
+    "step2Description": "Pick your favourite dishes from the menu and customise your order to your liking",
+    "step3Title": "Fast delivery",
+    "step3Description": "Your food is prepared fresh and delivered straight to your door in no time"
+  },
+  "appPromotion": {
+    "title": "Order on the go",
+    "subtitle": "Download the just-eat.ch app and order food from anywhere, anytime.",
+    "feature1": "Track your order in real-time",
+    "feature2": "Save your favourite addresses",
+    "feature3": "Exclusive app-only deals",
+    "downloadOnAppStore": "App Store",
+    "getOnGooglePlay": "Google Play"
+  },
+  "partnerCta": {
+    "title": "List your restaurant",
+    "subtitle": "Reach thousands of hungry customers in your area. Join our growing network of restaurant partners.",
+    "cta": "Become a partner"
+  },
+  "courierCta": {
+    "title": "Deliver with us",
+    "subtitle": "Earn money on your own schedule. Join our fleet of independent couriers across Switzerland.",
+    "cta": "Start delivering"
+  },
+  "featured_restaurants": "Featured Restaurants",
+  "popular_cuisines": "Popular Cuisines",
+  "all_cuisines": "All Cuisines",
+  "explore_restaurants": "Explore Restaurants",
+  "new_restaurants": "New on just-eat.ch",
+  "top_rated": "Top Rated",
+  "fast_delivery": "Fast Delivery",
+  "become_partner": "Become a Partner",
+  "become_courier": "Become a Courier",
+  "how_it_works": "How it works",
+  "how_step_1": "Choose a restaurant",
+  "how_step_2": "Pick your meals",
+  "how_step_3": "We deliver to you"
+}

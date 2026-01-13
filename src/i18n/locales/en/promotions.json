@@ -1,0 +1,10 @@
+{
+  "title": "Promotions",
+  "stamp_cards": "Stamp Cards",
+  "no_stamp_cards": "No stamp cards",
+  "stamps_progress": "{current} / {total} stamps",
+  "coupons": "My Coupons",
+  "no_coupons": "No available coupons",
+  "coupon_expires": "Expires {date}",
+  "coupon_discount": "{discount}% off"
+}

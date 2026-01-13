@@ -1,0 +1,16 @@
+{
+  "title": "My Reviews",
+  "no_reviews": "No reviews yet",
+  "no_reviews_hint": "After your first delivery, you can leave a review",
+  "form": {
+    "rating": "Rating",
+    "comment": "Your review",
+    "comment_placeholder": "Share your experience...",
+    "submit": "Submit Review",
+    "submitting": "Submitting..."
+  },
+  "card": {
+    "delete": "Delete review",
+    "delete_confirm": "Are you sure you want to delete this review?"
+  }
+}

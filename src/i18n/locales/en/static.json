@@ -1,0 +1,45 @@
+{
+  "footer": {
+    "tagline": "Switzerland's favourite food delivery platform. Order from the best restaurants near you.",
+    "discover": "Discover",
+    "account": "Account",
+    "legal": "Legal",
+    "rights": "all rights reserved."
+  },
+  "about": {
+    "title": "About just-eat.ch",
+    "subtitle": "Switzerland's Food Delivery Platform",
+    "mission": "Our mission is to connect food lovers with the best local restaurants across Switzerland.",
+    "story": "Founded in Switzerland, just-eat.ch brings the finest restaurants right to your door.",
+    "team": "Our Team"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help",
+    "name": "Your name",
+    "email": "Email address",
+    "subject": "Subject",
+    "message": "Message",
+    "message_placeholder": "How can we help you?",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "success": "Message sent! We'll get back to you shortly.",
+    "address": "Address",
+    "phone": "Phone",
+    "support_email": "support@just-eat.ch"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "last_updated": "Last updated: March 2026"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: March 2026"
+  },
+  "not_found": {
+    "title": "Page Not Found",
+    "subtitle": "The page you're looking for doesn't exist.",
+    "go_home": "Go to Home",
+    "search": "Search Restaurants"
+  }
+}
