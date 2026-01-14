@@ -1,0 +1,15 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "5181:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_BASE_URL=http://localhost:4005/api/v1
+      - VITE_APP_NAME=just-eat.ch
+      - VITE_DEFAULT_LANGUAGE=en
+      - VITE_SUPPORTED_LANGUAGES=en,fr,de,it

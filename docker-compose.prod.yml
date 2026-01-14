@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build:
+      context: .
+      target: production
+    ports:
+      - "3002:8080"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
