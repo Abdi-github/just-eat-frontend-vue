@@ -15,10 +15,20 @@ services:
       - traefik
     labels:
       - "traefik.enable=true"
+      - "traefik.docker.allownonrunning=true"
       - "traefik.http.routers.justeat-vue.rule=Host(`justeat-vue.swiftapp.ch`)"
       - "traefik.http.routers.justeat-vue.entrypoints=websecure"
       - "traefik.http.routers.justeat-vue.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.justeat-vue.middlewares=sablier-justeat@file"
       - "traefik.http.services.justeat-vue.loadbalancer.server.port=8080"
+      - "sablier.enable=true"
+      - "sablier.group=justeat"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:8080/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
 
 networks:
   justeat_network:
