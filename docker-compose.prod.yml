@@ -2,9 +2,26 @@ services:
   frontend:
     build:
       context: .
+      dockerfile: Dockerfile
       target: production
+    container_name: justeat_frontend_vue_prod
     ports:
       - "3002:8080"
     environment:
       - NODE_ENV=production
     restart: unless-stopped
+    networks:
+      - justeat_network
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.justeat-vue.rule=Host(`justeat-vue.swiftapp.ch`)"
+      - "traefik.http.routers.justeat-vue.entrypoints=websecure"
+      - "traefik.http.routers.justeat-vue.tls.certresolver=letsencrypt"
+      - "traefik.http.services.justeat-vue.loadbalancer.server.port=8080"
+
+networks:
+  justeat_network:
+    external: true
+  traefik:
+    external: true

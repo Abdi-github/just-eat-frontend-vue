@@ -6,14 +6,9 @@
         <div class="col-span-2 md:col-span-1">
           <RouterLink
             :to="{ name: 'home', params: { locale } }"
-            class="flex items-center gap-2 no-underline"
+            class="flex items-center no-underline"
           >
-            <div class="bg-primary text-white w-8 h-8 rounded-lg flex items-center justify-center">
-              <i class="pi pi-shopping-cart text-sm" />
-            </div>
-            <span class="font-extrabold text-white text-base">
-              <span class="text-primary">just</span>-eat.ch
-            </span>
+            <img src="/logo.svg" alt="just-eat.ch" class="h-8" style="filter: brightness(0) invert(1)" />
           </RouterLink>
           <p class="text-gray-400 text-sm mt-3 leading-relaxed">
             {{ t('static.footer.tagline') }}

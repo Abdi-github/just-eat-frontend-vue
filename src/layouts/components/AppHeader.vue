@@ -13,15 +13,10 @@
       <!-- Logo -->
       <RouterLink
         :to="{ name: 'home', params: { locale } }"
-        class="flex items-center gap-2 shrink-0 no-underline"
+        class="flex items-center shrink-0 no-underline"
         :aria-label="t('common.appName')"
       >
-        <div class="bg-primary text-white w-9 h-9 rounded-lg flex items-center justify-center shrink-0">
-          <i class="pi pi-shopping-cart text-base" />
-        </div>
-        <span class="font-extrabold text-secondary text-lg leading-tight hidden sm:block">
-          <span class="text-primary">just</span>-eat.ch
-        </span>
+        <img src="/logo.svg" alt="just-eat.ch" class="h-8" />
       </RouterLink>
 
       <!-- Search bar (desktop) -->

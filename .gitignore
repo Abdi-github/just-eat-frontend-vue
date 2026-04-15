@@ -7,3 +7,6 @@ dist
 coverage
 playwright-report
 test-results
+
+# Production secrets (use .env.production.example as template)
+.env.production
